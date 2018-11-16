@@ -13,4 +13,9 @@ optional_ivitees = ["Mike","Elyse"]
 
 potential_attedees = attenndees + optional_ivitees
 
+to_line = ", ".join(attenndees)
+cc_line = ", ".join(optional_ivitees)
+print("To:  " + to_line)
+print("Cc:  " + cc_line)
+
 print("There are",len(potential_attedees),"attenndees currently! ")

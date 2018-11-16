@@ -15,11 +15,13 @@ video_games = [
 
 
 def display_whislist(display_name, wishes):
+	# .copy method is used to create a copy of our list 
+	items = wishes.copy()
 	print(display_name + ": ")
-	suggested_gift = wishes.pop(0)
+	suggested_gift = items.pop(0)
 	print("=====>", suggested_gift , "<=====")
-	for wish in wishes:
-		print("* " + wish)
+	for item in items:
+		print("* " + item)
 	print()
 
 
