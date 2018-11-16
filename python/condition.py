@@ -10,7 +10,7 @@ else:
 	age = int(input("What's your Age?  "))
 	# if inside if with user input
 	if age <= 6:
-		print("wow! you sre just {}! If you are confident and can read go ahead. ".format(age))
+		print("wow! you are just {}! If you are confident and can read go ahead. ".format(age))
 	print("You should totally learn Python {}".format(first_name))
 # end here
 

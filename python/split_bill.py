@@ -12,7 +12,7 @@ def split_check(total, number_of_people):
 	# But to make it in round figure in nearest integer we can use math CEIL method
 	# cost_per_person = math.ceil(total / number_of_people)
 
-	# here wew assign result in one varrible and then return it
+	# here we assign result in one varrible and then return it
 	# but we are using math function with in build method it will return by itself
 	# That means we don't have to assign this to any varriable and return it
 	# so comment out next line
