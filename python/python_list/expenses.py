@@ -8,4 +8,4 @@ print("Travel Expenses: ")
 week_number = 1
 for week in travel_expenses:
 	print("* Week #{}: ${}".format(week_number,sum(week)))
-	week_number += 1
+	week_number += 1 
