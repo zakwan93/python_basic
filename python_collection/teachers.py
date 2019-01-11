@@ -1,6 +1,10 @@
-
 teachers  = {'Andrew Chalkley': ['jQuery Basics', 'Node.js Basics'],
 			 'Kenneth Love': ['Python Basics', 'Python Collections']}
+
+# 1. create a function named num_teachers that takes a single argument, 
+# which will be a dictionary of Treehouse teachers and their courses.
+# The num_teachers function should return an integer 
+# for how many teachers are in the dict.
 
 def num_teachers(test2):
     return len(test2)
@@ -29,11 +33,28 @@ def courses(teachers):
 # most_courses should return the name of the teacher with the most courses. 
 # You might need to hold onto some sort of max count variable.
 
-def most_courses(teachers_dict):
-	max_count = 0
-	teacher_name = ""
+def most_courses(dic):
+    course_count = 0
+    teacher_name = '' 
 
-	for teacher, courses in teachers_dict.items():
-		if len(courses>max_count):
-			teacher_name = teacher
-	return teacher_name
+    for teacher, courses in dic.items():
+        if len(courses) > course_count:
+            teacher_name = teacher
+    return teacher_name
+
+
+# 5. create a function named stats and it'll take our teacher dictionary 
+# as its only argument.
+# stats should return a list of lists where the first item in each inner list 
+# is the teacher's name and the second item is the number of courses that teacher has. 
+# For example, it might return: [["Kenneth Love", 5], ["Craig Dennis", 10]]
+
+
+def stats(teachers):
+    namelist = [] #empty list
+    for teacher, courses in teachers.items(): #for loop to go through the dictionary
+        namelist.append([teacher, len(courses)]) #adding stats to the empty list
+    return namelist
+
+
+
