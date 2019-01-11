@@ -1,0 +1,9 @@
+
+
+math set
+
+| or .union(*others) - all of the items from all of the sets
+& or .intersection(*others) - all of the common items between all of the sets
+- or .difference(*others) - all of the items in the first set that are not in the other sets
+^ or .symmetric_difference(other) - all of the items that are not shared by the two sets
+(also: notice how those are using *others? That's a tuple of other sets. See, I told you that pattern was everywhere!)
