@@ -29,3 +29,11 @@ def courses(teachers):
 # most_courses should return the name of the teacher with the most courses. 
 # You might need to hold onto some sort of max count variable.
 
+def most_courses(teachers_dict):
+	max_count = 0
+	teacher_name = ""
+
+	for teacher, courses in teachers_dict.items():
+		if len(courses>max_count):
+			teacher_name = teacher
+	return teacher_name
