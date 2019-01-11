@@ -7,7 +7,7 @@ attenndees.append("Michal")
 # ADD data of one list to existing list
 attenndees.extend(["Erin","Krystal"])
 
-# .Concat is achived by adding + sign bettween two list varriblae and store in ew varrialbe
+# .Concat is achived by adding + sign bettween two list varriblae and store in new varrialbe
 
 optional_ivitees = ["Mike","Elyse"]
 

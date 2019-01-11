@@ -20,7 +20,7 @@ for book in books:
 	print("*" + book)
 
 	
-# use of garbage_collector is to use garbage means the value which we donn't need
+# use of garbage_collector is to use garbage means the value which we don't need
 # any longer in our main object but we can assign that value to some varriable
 # and can acces it later if we want 
 
